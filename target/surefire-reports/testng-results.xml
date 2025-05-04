@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Local : Chrome Browser Launched ]]>
+    </line>
+    <line>
+      <![CDATA[APP URL : https://pos.aksharatraining.in/pos/public/]]>
+    </line>
+    <line>
+      <![CDATA[ITO : 30]]>
+    </line>
+    <line>
+      <![CDATA[ITO : 30]]>
+    </line>
+    <line>
+      <![CDATA[LIST : TestCase Started ]]>
+    </line>
+    <line>
+      <![CDATA[**Login is success**]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Name : loginTestCase]]>
+    </line>
+    <line>
+      <![CDATA[TestStatus : 1]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS = 1 , FAILURE = 2 , SKIP = 3;]]>
+    </line>
+    <line>
+      <![CDATA[loginTestCase : TestCase is passed..!!!]]>
+    </line>
+    <line>
+      <![CDATA[LIST : TestCase Started ]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Name : logoutTestCase]]>
+    </line>
+    <line>
+      <![CDATA[TestStatus : 1]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS = 1 , FAILURE = 2 , SKIP = 3;]]>
+    </line>
+    <line>
+      <![CDATA[logoutTestCase : TestCase is passed..!!!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-04T19:01:29 IST" name="Suite" finished-at="2025-05-04T19:01:34 IST" duration-ms="4819">
+    <groups>
+    </groups>
+    <test started-at="2025-05-04T19:01:29 IST" name="Test" finished-at="2025-05-04T19:01:34 IST" duration-ms="4819">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="createExtentReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:29 IST" name="createExtentReport" finished-at="2025-05-04T19:01:29 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReport -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:29 IST" name="launchBrowser" finished-at="2025-05-04T19:01:32 IST" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://oauth-jeethu301095-82461:0bdc78bb-2da0-426b-b72b-840633feffa0@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[./qa_env.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Local : Chrome Browser Launched ]]>
+            </line>
+            <line>
+              <![CDATA[APP URL : https://pos.aksharatraining.in/pos/public/]]>
+            </line>
+            <line>
+              <![CDATA[ITO : 30]]>
+            </line>
+            <line>
+              <![CDATA[ITO : 30]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTestCase()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:32 IST" name="loginTestCase" finished-at="2025-05-04T19:01:33 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LIST : TestCase Started ]]>
+            </line>
+            <line>
+              <![CDATA[**Login is success**]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:33 IST" name="takeScreenshot" finished-at="2025-05-04T19:01:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTestCase status=SUCCESS method=LoginTest.loginTestCase()[pri:0, instance:test.LoginTest@441772e] output=LIST : TestCase Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase Name : loginTestCase]]>
+            </line>
+            <line>
+              <![CDATA[TestStatus : 1]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESS = 1 , FAILURE = 2 , SKIP = 3;]]>
+            </line>
+            <line>
+              <![CDATA[loginTestCase : TestCase is passed..!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="closeBroser()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:34 IST" name="closeBroser" finished-at="2025-05-04T19:01:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-04T19:01:34 IST" name="flushReport" finished-at="2025-05-04T19:01:35 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.LogoutTest">
+        <test-method signature="logoutTestCase()[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-04T19:01:33 IST" name="logoutTestCase" finished-at="2025-05-04T19:01:34 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LIST : TestCase Started ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutTestCase -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-04T19:01:34 IST" name="takeScreenshot" finished-at="2025-05-04T19:01:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTestCase status=SUCCESS method=LogoutTest.logoutTestCase()[pri:0, instance:test.LogoutTest@1a451d4d] output=LIST : TestCase Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase Name : logoutTestCase]]>
+            </line>
+            <line>
+              <![CDATA[TestStatus : 1]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESS = 1 , FAILURE = 2 , SKIP = 3;]]>
+            </line>
+            <line>
+              <![CDATA[logoutTestCase : TestCase is passed..!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- test.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="generic.Listeners" />
+	</listeners>
+
+	<test name="Test">
+
+		<parameter name="grid" value="no" />
+		<parameter name="grid_url"
+			value="https://oauth-jeethu301095-82461:0bdc78bb-2da0-426b-b72b-840633feffa0@ondemand.eu-central-1.saucelabs.com:443/wd/hub" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="app_url"
+			value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+		<parameter name="env" value="./qa_env.properties" />
+
+		<packages>
+			<package name="test" />
+		</packages>
+	</test>
+</suite>

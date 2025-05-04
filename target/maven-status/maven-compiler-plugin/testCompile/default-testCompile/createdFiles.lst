@@ -1,0 +1,9 @@
+generic\BaseTest.class
+generic\Screenshot.class
+generic\IAutoConstant.class
+test\LoginTest.class
+generic\Listeners.class
+page\LogoutPage.class
+generic\Utilities.class
+test\LogoutTest.class
+page\LoginPage.class
