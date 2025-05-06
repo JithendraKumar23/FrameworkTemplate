@@ -96,6 +96,9 @@ public class BaseTest implements IAutoConstant{
 		driver.get(appn_url);
 		Reporter.log("APP URL : " + appn_url, true); 
 		
+		//maximize the browser
+	    driver.manage().window().maximize();
+		
 		// Launch Browser from TESTNG/OPTIONAL file
 //		 driver.get(app_url);	
 //		 Reporter.log("APP URL : " + app_url, true);
@@ -166,11 +169,22 @@ public class BaseTest implements IAutoConstant{
 	{
 		extentReports.flush();
 		
-		Desktop.getDesktop().browse(new File("C:\\Users\\jeeth\\OneDrive\\Documents\\Workspace\\Project1\\extentReport\\ExtentReport.html").toURI());
+		// Static Report Path
+		//Desktop.getDesktop().browse(new File("C:\\Users\\jeeth\\OneDrive\\Documents\\Workspace\\Project1\\extentReport\\ExtentReport.html").toURI());
+		
+        // Get the current working directory (i.e., project root)
+        String projectPath = System.getProperty("user.dir");
+        
+        // Build the path to the report file
+        String reportPath = projectPath + File.separator + "extentReport" + File.separator + "ExtentReport.html";
+        
+        // Open the report in the default browser
+        File reportFile = new File(reportPath);
+        if (reportFile.exists()) {
+            Desktop.getDesktop().browse(reportFile.toURI());
+        } else {
+            System.out.println("Report file not found: " + reportPath);
+        }
 
-//		This code is not working
-//		File extentReportPath = new File("./extentReport/ExtentReport.html");
-//		String pathExtentReport = extentReportPath.getAbsolutePath();
-//		Reporter.log(pathExtentReport , true);
 	}
 }
