@@ -148,7 +148,7 @@ public class BaseTest implements IAutoConstant{
 	@AfterTest
 	public void closeBroser()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@BeforeSuite
@@ -186,7 +186,7 @@ public class BaseTest implements IAutoConstant{
         }
         else 
         {
-        	Reporter.log("Report file not found: " + reportPath , true);
+        	Reporter.log("Report file not found : " + reportPath , true);
         }
 
 	}
