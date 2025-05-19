@@ -180,10 +180,13 @@ public class BaseTest implements IAutoConstant{
         
         // Open the report in the default browser
         File reportFile = new File(reportPath);
-        if (reportFile.exists()) {
+        if (reportFile.exists()) 
+        {
             Desktop.getDesktop().browse(reportFile.toURI());
-        } else {
-            System.out.println("Report file not found: " + reportPath);
+        } 
+        else 
+        {
+        	Reporter.log("Report file not found: " + reportPath , true);
         }
 
 	}

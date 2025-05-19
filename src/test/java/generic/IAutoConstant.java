@@ -10,8 +10,4 @@ public interface IAutoConstant {
 	
 	public static final String EXCELPATH = "./excelData/UserData.xlsx";
 	public static final String SCREENSHOTPATH = "./Screenshots/";
-	
-	
-	
-
 }
