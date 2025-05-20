@@ -47,16 +47,16 @@
       <![CDATA[logoutTestCase : TestCase is passed..!!!]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-05-19T22:13:14 IST" name="Suite" finished-at="2025-05-19T22:13:22 IST" duration-ms="8431">
+  <suite started-at="2025-05-20T17:19:09 IST" name="Suite" finished-at="2025-05-20T17:19:15 IST" duration-ms="5814">
     <groups>
     </groups>
-    <test started-at="2025-05-19T22:13:14 IST" name="Test" finished-at="2025-05-19T22:13:22 IST" duration-ms="8431">
+    <test started-at="2025-05-20T17:19:09 IST" name="Test" finished-at="2025-05-20T17:19:15 IST" duration-ms="5814">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="createExtentReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:13 IST" name="createExtentReport" finished-at="2025-05-19T22:13:14 IST" duration-ms="496" status="PASS">
+        <test-method is-config="true" signature="createExtentReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:09 IST" name="createExtentReport" finished-at="2025-05-20T17:19:09 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:14 IST" name="launchBrowser" finished-at="2025-05-19T22:13:18 IST" duration-ms="3859" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:09 IST" name="launchBrowser" finished-at="2025-05-20T17:19:11 IST" duration-ms="2437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="loginTestCase()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:18 IST" name="loginTestCase" finished-at="2025-05-19T22:13:21 IST" duration-ms="3144" status="PASS">
+        <test-method signature="loginTestCase()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:11 IST" name="loginTestCase" finished-at="2025-05-20T17:19:14 IST" duration-ms="2695" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[LIST : TestCase Started ]]>
@@ -109,7 +109,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTestCase -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:21 IST" name="takeScreenshot" finished-at="2025-05-19T22:13:21 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:14 IST" name="takeScreenshot" finished-at="2025-05-20T17:19:14 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,24 +132,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="closeBroser()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:22 IST" name="closeBroser" finished-at="2025-05-19T22:13:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBroser()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:15 IST" name="closeBroser" finished-at="2025-05-20T17:19:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroser -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-19T22:13:22 IST" name="flushReport" finished-at="2025-05-19T22:13:24 IST" duration-ms="1272" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.LoginTest@441772e]" started-at="2025-05-20T17:19:15 IST" name="flushReport" finished-at="2025-05-20T17:19:16 IST" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- test.LoginTest -->
       <class name="test.LogoutTest">
-        <test-method signature="logoutTestCase()[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-19T22:13:21 IST" name="logoutTestCase" finished-at="2025-05-19T22:13:22 IST" duration-ms="1341" status="PASS">
+        <test-method signature="logoutTestCase()[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-20T17:19:14 IST" name="logoutTestCase" finished-at="2025-05-20T17:19:15 IST" duration-ms="607" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[LIST : TestCase Started ]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutTestCase -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-19T22:13:22 IST" name="takeScreenshot" finished-at="2025-05-19T22:13:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.LogoutTest@1a451d4d]" started-at="2025-05-20T17:19:15 IST" name="takeScreenshot" finished-at="2025-05-20T17:19:15 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

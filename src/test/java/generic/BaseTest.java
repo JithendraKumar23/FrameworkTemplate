@@ -148,7 +148,7 @@ public class BaseTest implements IAutoConstant{
 	@AfterTest
 	public void closeBroser()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@BeforeSuite
